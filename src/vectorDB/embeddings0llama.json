@@ -1,0 +1,9 @@
+{
+  "id": "OllamaEmbeddings_1",
+  "name": "Embeddings Generator",
+  "type": "n8n-nodes-base.embeddingsOllama",
+  "parameters": {
+    "model": "all-minilm",
+    "dimension": 768
+  }
+}

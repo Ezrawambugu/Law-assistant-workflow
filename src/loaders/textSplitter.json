@@ -1,0 +1,10 @@
+{
+  "id": "TextSplitter_1",
+  "name": "Text Splitter",
+  "type": "n8n-nodes-base.textSplitter",
+  "parameters": {
+    "chunkSize": 1000,
+    "chunkOverlap": 100,
+    "separator": "\n\n"
+  }
+}

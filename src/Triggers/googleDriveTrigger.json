@@ -1,0 +1,9 @@
+{
+  "id": "GoogleDriveTrigger_1",
+  "name": "Google Drive Trigger",
+  "type": "n8n-nodes-base.googleDriveTrigger",
+  "parameters": {
+    "triggerOn": "fileAdded",
+    "folder": "Law_Documents"
+  }
+}

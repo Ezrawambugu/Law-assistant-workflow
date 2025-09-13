@@ -1,0 +1,10 @@
+{
+  "id": "AddLabel_1",
+  "name": "Add Gmail Label",
+  "type": "n8n-nodes-base.gmail",
+  "parameters": {
+    "operation": "addLabel",
+    "messageId": "={{$json[\"id\"]}}",
+    "label": "Law Assistant"
+  }
+}

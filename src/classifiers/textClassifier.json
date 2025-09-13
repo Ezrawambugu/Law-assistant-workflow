@@ -1,0 +1,10 @@
+{
+  "id": "TextClassifier_1",
+  "name": "Law Query Classifier",
+  "type": "n8n-nodes-base.textClassifier",
+  "parameters": {
+    "labels": ["law", "other"],
+    "instruction": "Classify the text as 'law' if it relates to constitutional law, legal matters, rights, or government policies. Classify as 'other' if it is unrelated to law.",
+    "confidenceThreshold": 0.75
+  }
+}

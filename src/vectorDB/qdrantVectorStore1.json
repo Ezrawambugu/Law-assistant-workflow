@@ -1,0 +1,12 @@
+{
+  "id": "QdrantStore_2",
+  "name": "Qdrant Vector Store (Queries)",
+  "type": "n8n-nodes-base.qdrant",
+  "parameters": {
+    "collection": "law_assistant_queries",
+    "operation": "search",
+    "vectorSize": 768,
+    "distance": "cosine",
+    "topK": 5
+  }
+}

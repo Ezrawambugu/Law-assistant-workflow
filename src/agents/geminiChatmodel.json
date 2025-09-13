@@ -1,0 +1,11 @@
+{
+  "id": "GeminiChat_1",
+  "name": "Gemini Chat Model",
+  "type": "n8n-nodes-base.aiModel",
+  "parameters": {
+    "provider": "google",
+    "model": "gemini-pro",
+    "temperature": 0.4,
+    "maxTokens": 1024
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "DocumentLoader_1",
+  "name": "Constitution Document Loader",
+  "type": "n8n-nodes-base.documentLoader",
+  "parameters": {
+    "source": "googleDrive",
+    "fileTypes": ["pdf", "docx", "txt"],
+    "outputFormat": "plainText",
+    "includeMetadata": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "DownloadConstitution_1",
+  "name": "Download Constitution File",
+  "type": "n8n-nodes-base.googleDrive",
+  "parameters": {
+    "operation": "download",
+    "fileId": "={{$json[\"fileId\"]}}",
+    "binaryProperty": "data",
+    "options": {
+      "includeMetadata": true
+    }
+  }
+}

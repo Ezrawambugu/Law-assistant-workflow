@@ -1,0 +1,14 @@
+{
+  "id": "ReplyMessage_1",
+  "name": "Reply to Gmail Message",
+  "type": "n8n-nodes-base.gmail",
+  "parameters": {
+    "operation": "reply",
+    "replyTo": "={{$json[\"from\"]}}",
+    "subject": "Re: {{$json[\"subject\"]}}",
+    "content": "{{$json[\"law_assistant_reply\"]}}",
+    "options": {
+      "html": false
+    }
+  }
+}

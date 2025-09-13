@@ -1,0 +1,11 @@
+{
+  "id": "QdrantStore_1",
+  "name": "Qdrant Vector Store",
+  "type": "n8n-nodes-base.qdrant",
+  "parameters": {
+    "collection": "law_assistant_docs",
+    "operation": "store",
+    "vectorSize": 768,
+    "distance": "cosine"
+  }
+}
