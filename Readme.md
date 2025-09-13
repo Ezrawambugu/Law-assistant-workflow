@@ -1,7 +1,6 @@
 ---
 ⚖️ Law Assistant AI Agent
 
-![Banner Image] (assets/banner image.jpg)
 
 A smart Law Assistant AI Agent powered by n8n workflows, Google Gmail/Drive, and LLMs. It processes client legal queries received by email, references the Constitution of Kenya (2010) from a vector database, and replies automatically in a professional format.
 ---
