@@ -47,7 +47,7 @@ If legal → passed forward
 
 > Visual representation of your Law Assistant AI Workflow
 
-(.assets\Law assistant workflow.png)
+![workflow image] (assets\banner image.jpg)
 
 ---
 
